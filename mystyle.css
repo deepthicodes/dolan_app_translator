@@ -1,0 +1,61 @@
+*
+{
+    margin:auto;
+}
+
+:root
+{
+  --primary:#53FEEE;
+}
+
+.navigation .nav-brand
+{
+    text-align: center;
+    font-weight: lighter;
+    font-size:3rem;
+    background-color:var(--primary);
+    min-height:15vh;
+    font-family:Cambria;
+}
+
+textarea
+{
+    width:90%;
+    display:block;
+    height:20vh;
+    margin:1rem 3rem;
+    padding:1rem;
+}
+#btn-translate 
+{
+    /*margin-left: 600px;*/
+    background-color:var(--primary);
+    margin:2rem 5rem;
+    padding:0.5rem 0.5rem;
+    font-family: 'Kalam',cursive;
+    font-size: large;
+    border:none;
+}
+
+#output
+{
+    border:1px solid black;
+    height:20vh;
+    width:90%;
+    margin:1rem 3rem;
+    padding:1rem;
+}
+
+footer
+{
+    background-color: var(--primary);
+    min-height: 10vh;
+    box-sizing: border-box;
+    padding:1rem 1rem;
+    font-family: Cambria;
+}
+
+p{
+    display: block;
+    text-align: center;
+}
